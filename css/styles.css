@@ -1,0 +1,16 @@
+.testing {
+  background: url("../media/attachment-1.png") no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 145px;
+  animation: walk 1.4s steps(6) infinite;
+}
+
+@keyframes walk {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -600px 0;
+  }
+}
